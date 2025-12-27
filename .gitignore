@@ -1,0 +1,23 @@
+# --- Neovim Runtime Data ---
+.repro/
+plugin/
+lazy-lock.json
+
+# --- Lazy.nvim specific ---
+/dist/
+
+# --- Backup and Swap files ---
+*.swp
+*.swo
+*.swn
+*~
+
+# --- Logs ---
+*.log
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Mason (LSP/Linter/Formatter binaries) ---
+/mason/
